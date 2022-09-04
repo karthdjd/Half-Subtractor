@@ -1,8 +1,8 @@
-module half_adder;
+module half_sub;
 reg A, B, Cin;
 wire S, Cout;
 integer i;
-half_a FA (.A(A),.B(B) , .S(S), .Cout(Cout));
+half_s SA (.A(A),.B(B) , .S(S), .Cout(Cout));
 initial
 begin
   {A,B} <= 2'b00;
